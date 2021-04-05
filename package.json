@@ -68,13 +68,16 @@
     "http-proxy": "^1.18.1"
   },
   "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
     "babel-plugin-react-intl": "^3.2.0",
     "cypress": "^5.2.0",
     "eslint": "^7.20.0",
     "eslint-plugin-react": "^7.22.0",
     "glob": "^7.1.6",
     "mustache": "^2.3.0",
-    "start-server-and-test": "^1.10.8"
+    "start-server-and-test": "^1.10.8",
+    "typescript": "^4.2.3"
   },
   "scripts": {
     "dev": "NODE_ENV=development MEASUREMENTS_URL=https://api.ooni.io SENTRY_DSN=https://49af7fff247c445b9a7c98ee21ddfd2f@sentry.io/1427510 node index.js",
